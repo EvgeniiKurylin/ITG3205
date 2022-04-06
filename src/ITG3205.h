@@ -63,6 +63,4 @@ class ITG3205{
         float readTemperature();
 };
 
-void printByte(char byte);
-
 #endif

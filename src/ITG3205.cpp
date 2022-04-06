@@ -151,10 +151,3 @@ float ITG3205::readTemperature(){
 
     return temp;
 }
-
-/* Other functions */
-void printByte(char byte) {
-  printf("0b");
-  for (int i = 7; i >= 0; --i)
-    printf("%d", (byte >> i) & 1);
-}
